@@ -1,0 +1,33 @@
+&#123;<div class="manifest-basic"><span class="manifest-1">
+  &quot;manifest_version&quot;: 2,</span>
+  <span class="manifest-2">&quot;default_locale&quot;: &quot;en&quot;,</span>
+
+  <span class="manifest-3">&quot;name&quot;: &quot;WikiReader&quot;,</span>
+  <span class="manifest-4">&quot;description&quot;: &quot;Minimize Wikipedia&quot;,</span>
+  <span class="manifest-5">&quot;version&quot;: &quot;0.2&quot;,</span>
+  <span class="manifest-6">&quot;author&quot;: &quot;Lillian Chen&quot;,</span>
+
+  <span class="manifest-7">&quot;icons&quot;: &#123; &quot;16&quot;: &quot;icon16.png&quot;,
+             &quot;48&quot;: &quot;icon48.png&quot;,
+            &quot;128&quot;: &quot;icon128.png&quot; &#125;,</span>
+
+  <span class="manifest-8">&quot;permissions&quot;: &#91;
+    &quot;activeTab&quot;,
+    &quot;tabs&quot;,
+    &quot;storage&quot;
+  &#93;</span></div>
+  ...<div class="manifest-scripts">
+  <span class="manifest-9">&quot;background&quot;: &#123;
+    &quot;scripts&quot;: &#91;
+      &quot;jquery.js&quot;,
+      &quot;background.js&quot;
+    &#93;,
+    &quot;persistent&quot;: <span class="manifest-10">true</span><span class="manifest-11">false</span>
+  &#125;</span>
+
+  <span class="manifest-12">&quot;content_scripts&quot;: &#123;
+    <span class="manifest-13">&quot;matches&quot;: &#91;&quot;*://*.wikipedia.org/*&quot;&#93;,</span>
+    <span class="manifest-14">&quot;css&quot;: &#91;&quot;wiki.css&quot;&#93;,
+    &quot;js&quot;: &#91;&quot;jquery.js&quot;,&quot;wiki.js&quot;&#93;</span>
+  &#125;</span></div>
+&#125;
