@@ -3,7 +3,7 @@ author: Lillian Chen
 email: lilyc5459@gmail.com
 description: >
   This is just a look-of-the-land introduction on how to make chrome extensions.  
-baseurl: "/crx"
+baseurl: "/crx-tutorial"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
