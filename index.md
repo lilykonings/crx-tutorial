@@ -12,7 +12,7 @@ layout: default
   <h2>Getting Started</h2>
   <p><code>chrome://extensions</code> > check Developer mode > Load unpacked extension</p>
   <br />
-  <img class="uk-width-1-1" src="{{ site.url }}/assets/img/getting-started.jpg" alt="chrome://extensions > check developer mode > load unpacked extension" />
+  <img class="uk-width-1-1" src="{{ '/assets/img/getting-started.jpg' | relative_url }}" alt="chrome://extensions > check developer mode > load unpacked extension" />
 </section>
 
 <section class="deck-slide h-slide" id="icons">
@@ -79,7 +79,7 @@ layout: default
       <ul class="no-list">
         <li class="deck-slide fade" id="browser-1">
           Place an icon on the right side of the address bar.
-          <img src="{{ site.url }}/assets/img/browser-action.jpg" />
+          <img src="{{ '/assets/img/browser-action.jpg' | relative_url }}" />
         </li>
         <li class="deck-slide fade" id="browser-2">
           <strong>Popup</strong><br>
@@ -110,7 +110,7 @@ layout: default
       <ul class="no-list">
         <li class="deck-slide fade" id="page-1">
           Place an icon <em>inside</em> the address bar, but only shows up when specified (ex: RSS feed). Works very similarly to browser action but can't have pages.
-          <img src="{{ site.url }}/assets/img/page-action.png" />
+          <img src="{{ '/assets/img/page-action.png' | relative_url }}" />
         </li>
         <li class="deck-slide fade uk-margin-top" id="page-2">
           You make a page action appear and disappear using the <code>pageAction.show</code> and <code>pageAction.hide</code> methods, respectively.
@@ -145,11 +145,16 @@ layout: default
     <li class="uk-margin-top">
       <strong>omnibox</strong><br>
       Register a keyword with the address bar<br>
-      <img src="{{ site.url }}/assets/img/omnibox.png">
+      <img src="{{ '/assets/img/omnibox.png' | relative_url }}">
     </li>
     <li class="uk-margin-top">
       <strong>tabs</strong><br>
       Interact with the browser's tabs
     </li>
   </ul>
+</section>
+
+<section class="deck-slide h-slide" api="demo">
+  <h1>Demo!</h1>
+  <a href="https://github.com/lllychen/crx-tutorial/tree/master/assets/demo">Github repo</a>
 </section>
