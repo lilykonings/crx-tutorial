@@ -2,10 +2,8 @@
 layout: default
 ---
 
-<section class="deck-slide h-slide uk-vertical-align" id="index">
-  <div class="uk-vertical-align-middle">
-    <h1>Introduction to Building Chrome Extensions</h1>
-  </div>
+<section class="deck-slide h-slide" id="index">
+  <h1>Introduction to Building Chrome Extensions</h1>
 </section>
 
 <section class="deck-slide h-slide" id="getting-started">
